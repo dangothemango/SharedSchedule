@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  user-select: none;
+}
+
+th.header-toggled {
+  background-color: green;
+}
+
+.main-content {
+  height: calc(100% - 56px);
+  padding: 10px 30px;
+}
+
+.player-select-container {
+  height: 40px;
+}
+
+.player-column {
+  font-size: 20px;
+  text-align: center;
+}
+
+.player-column .badge {
+    cursor: pointer;
+}
+
+.player-column .badge.selected {
+  font-size: 28px;
+}
+
+.badge {
+  position: relative;
+  transition: all .25s ease;
+}
+
+.badge-purple {
+  background-color: rgb(114, 43, 138);
+  color: white;
+}
+
+.badge-brown {
+  background-color: rgb(105, 73, 61);
+  color: white;
+}
+
+.centered {
+  text-align: center;
+}
+
+[v-cloak] {
+  display: none;
+}

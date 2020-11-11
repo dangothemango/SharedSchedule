@@ -1,0 +1,61 @@
+.calendar-header {
+  text-align: center;
+}
+
+.calendar {
+  border: solid #ddd 1px;
+  height: calc(100% - 120px);
+  margin-top: 10px;
+  overflow: scroll;
+}
+
+.calendar-day {
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  height: 138px;
+  padding-top: 22px;
+  transition: all .25s ease;
+}
+
+.calendar-day:hover {
+  border-color: rgb(32, 159, 26);
+}
+
+.calendar-day.calendar-today {
+  border-color: rgb(20, 38, 152);
+  border-width: 2px;
+}
+
+.calendar-day.calendar-all {
+  box-shadow: inset 0px 0px 15px #00a0ff;
+}
+
+.calendar-day.calendar-past {
+  background-color: rgba(100, 100, 100, 0.25);
+  cursor: not-allowed;
+  opacity: .65;
+}
+
+.calendar-day.calendar-past:hover {
+  border-color: rgb(159, 46, 26);
+}
+
+.calendar-day.ians-house {
+  background-color: rgba(106, 204, 17, 0.25);
+}
+
+.calendar-day .day-title {
+  position: absolute;
+  right: 5px;
+  text-align: right;
+  top: 2px;
+  transition: all .25s ease;
+}
+
+.calendar-day .day-title:hover {
+  border-radius: 50px;
+  color: blue;
+  font-size: 22px;
+}
