@@ -6,6 +6,7 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 
 const schedulerDataService = require('./data-services/scheduler-data-service.js');
+const peopleDataService = require('./data-services/people-data-service.js');
 
 function initializeCron(io) {
   const job = new CronJob('0 0 0 1 * *', function() {
@@ -30,6 +31,22 @@ function initializeSchedulerSocket() {
   return schedulerIO;
 }
 
+function initializePeopleSocket() {
+  const peopleIo = io.of('/people');
+  peopleIo.on('connection', function(socket) {
+    socket.on('people', function(people) {
+      peopleDataService.setPeople(people).then(function() {
+        peopleIo.emit('people', peopleDataService.get().people);
+      });
+    });
+    socket.on('get-people', function() {
+      peopleIo.emit('people', peopleDataService.get().people);
+    });
+  });
+  return peopleIo;
+}
+
+
 async function main() {
   app.use(express.static('app'));
   app.get('/', (req, res) => {
@@ -37,9 +54,11 @@ async function main() {
   });
 
   await schedulerDataService.initialize();
+  await peopleDataService.initialize();
 
   const schedulerIO = initializeSchedulerSocket();
   initializeCron(schedulerIO);
+  const peopleIO = initializePeopleSocket();
 
   http.listen(3000, function() {
     console.log('listening on port: 3000');

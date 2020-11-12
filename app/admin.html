@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="app.css">
-  <link rel="stylesheet" href="scheduler.css">
+  <link rel="stylesheet" href="admin.css">
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -24,53 +24,41 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
+        <li class="nav-item">
+          <span class="nav-link" href="/scheduler.html">Scheduler</span>
+        </li>
         <li class="nav-item active">
-          <span class="nav-link">Scheduler</span>
+          <span class="nav-link">Admin</span>
         </li>
       </ul>
     </div>
   </nav>
   <div id="app" class="container-fluid main-content" v-cloak>
-    <h3 class="centered">Choose Your Name</h3>
-    <div class="row player-select-container">
-    <div class='player-column'>
-      <select v-model="selectedPerson">
-        <option v-for="person in people" v-bind:value="person">
-          {{person.name}}
-        </option>
-      </select>
-      </div>
-      <div class='player-column'>
-      <input type="text" class="form-control" v-model="comment" placeholder="Mountain">
-      </div>
-    </div>
-    <div class="row calendar-header">
-      <div class="col">Sun</div>
-      <div class="col">Monday</div>
-      <div class="col">Tuesday</div>
-      <div class="col">Wednesday</div>
-      <div class="col">Thursday</div>
-      <div class="col">Friday</div>
-      <div class="col">Saturday</div>
-    </div>
-    <div class="row calendar">
-      <div class="col">
-        <div class="row calendar-week" v-for="week in weeks">
-          <div class="col calendar-day" v-bind:class="dayClasses(day)" v-for="day in week" v-on:click="selectDay(day)">
-            <div class="day-title">{{dayTitle(day)}}</div>
-            <div v-for="person in day.people">
-              <div class="badge badge-pill" v-bind:style="person.style">{{person.name}} - {{person.comment}}</div>
-            </div>
-            <!-- <pre style="text-align: initial;font-size:10px;overflow:scroll;">{{day}}</pre> -->
-          </div>
+    <h3 class="centered">Administration</h3>
+    <div class="input-group unlock-control">
+        <input type="text" class="form-control" v-model="name" placeholder="Name">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button" v-on:click="addPerson()">Add Person</button>
         </div>
       </div>
-    </div>
+    <h3>People</h3>
+    <ul class="personList">
+        <div v-for="person in people">
+            <li>
+                <div class="badge badge-pill" v-bind:style="person.style">
+                    {{person.name}}
+                </div>
+                <button v-on:click="deletePerson(person.name)">
+                    Delete {{person.name}}
+                </button>
+            </li>
+        </div>
+    </ul>
     <!-- <pre>{{weeks}}</pre> -->
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
   <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-  <script src="scheduler.js"></script>
+  <script src="admin.js"></script>
 </body>
 
 </html>

@@ -32,15 +32,6 @@ th.header-toggled {
 .badge {
   position: relative;
   transition: all .25s ease;
-}
-
-.badge-purple {
-  background-color: rgb(114, 43, 138);
-  color: white;
-}
-
-.badge-brown {
-  background-color: rgb(105, 73, 61);
   color: white;
 }
 

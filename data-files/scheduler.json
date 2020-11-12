@@ -2,461 +2,431 @@
   "weeks": [
     [
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 1,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 2,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 3,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 4,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 5,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 6,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 7,
-        "players": []
+        "people": []
       }
     ],
     [
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 8,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 9,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 10,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 11,
-        "players": []
+        "people": [
+          {
+            "name": "Bobby",
+            "style": {
+              "backgroundColor": "#d3d3d3",
+              "color": "#000000"
+            },
+            "comment": "Keystone"
+          },
+          {
+            "name": "Dan",
+            "style": {
+              "backgroundColor": "#556b2f",
+              "color": "#ffffff"
+            },
+            "comment": "Vail"
+          },
+          {
+            "name": "Ryan",
+            "style": {
+              "backgroundColor": "#000000",
+              "color": "#ffffff"
+            },
+            "comment": "Breck"
+          },
+          {
+            "name": "Sarah",
+            "style": {
+              "backgroundColor": "#00ffff",
+              "color": "#000000"
+            },
+            "comment": "Vail"
+          }
+        ]
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 12,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 13,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 14,
-        "players": []
+        "people": []
       }
     ],
     [
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 15,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 16,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 17,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 18,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 19,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 20,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 21,
-        "players": []
+        "people": []
       }
     ],
     [
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 22,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 23,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 24,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 25,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 26,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 27,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 28,
-        "players": []
+        "people": []
       }
     ],
     [
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 29,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 10,
         "monthName": "Nov",
         "number": 30,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 1,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 2,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 3,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 4,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 5,
-        "players": []
+        "people": []
       }
     ],
     [
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 6,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 7,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 8,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 9,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 10,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 11,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 12,
-        "players": []
+        "people": []
       }
     ],
     [
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 13,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 14,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 15,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 16,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 17,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 18,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 19,
-        "players": []
+        "people": []
       }
     ],
     [
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 20,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 21,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 22,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 23,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 24,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 25,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 26,
-        "players": []
+        "people": []
       }
     ],
     [
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 27,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 28,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 29,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 30,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 11,
         "monthName": "Dec",
         "number": 31,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 0,
         "monthName": "Jan",
         "number": 1,
-        "players": []
+        "people": []
       },
       {
-        "iansHouse": false,
         "month": 0,
         "monthName": "Jan",
         "number": 2,
-        "players": []
+        "people": []
       }
     ]
   ],

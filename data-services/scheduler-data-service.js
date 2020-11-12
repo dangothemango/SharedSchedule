@@ -3,7 +3,7 @@ const path = require('path');
 const fs = fsRaw.promises;
 
 const dateUtils = require('../date-utils');
-const dataFile = path.resolve('data.json'); // TODO: move this into data-files. will need to migrate the file on the server.
+const dataFile = path.resolve('data-files/scheduler.json');
 
 let serverData;
 
@@ -38,11 +38,10 @@ function _setupNextMonth() {
 
 function _generateDay(d) {
   return {
-    iansHouse: false,
     month: d.getMonth(),
     monthName: dateUtils.monthNames[d.getMonth()],
     number: d.getDate(),
-    players: []
+    people: []
   };
 }
 
