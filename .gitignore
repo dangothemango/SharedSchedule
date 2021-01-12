@@ -104,6 +104,6 @@ dist
 .tern-port
 
 #data
-data-files/
+data-files/*.json
 
 **/nohup.out
