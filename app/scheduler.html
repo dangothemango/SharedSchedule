@@ -35,7 +35,7 @@
     <div class="row player-select-container">
     <div class='player-column'>
       <select v-model="selectedPerson">
-        <option v-for="person in people" v-bind:value="person">
+        <option v-for="person in sortedPeople" v-bind:value="person">
           {{person.name}}
         </option>
       </select>

@@ -21,6 +21,19 @@ $(function() {
   new Vue({
     el: '#app',
     data: vueData,
+    computed: {
+      sortedPeople: function() {
+        function compare(a, b) {
+          if (a.name < b.name)
+            return -1;
+          if (a.name > b.name)
+            return 1;
+          return 0;
+        }
+  
+        return this.people.sort(compare);
+      }
+    },
     methods: {
       dayClasses: function(day) {
         const today = new Date();
